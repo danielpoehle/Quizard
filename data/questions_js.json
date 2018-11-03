@@ -1,0 +1,71 @@
+{
+    "questions" : 
+	[
+		{
+			"id": 61,
+			"topic": "js",
+			"question": "a++; is the same as which of the following?",
+			"options": ["a = a + 1;", "a = a + 2;", "a == 2;", "no valid code"]
+        },
+        {
+			"id": 62,
+			"topic": "js",
+			"question": "Inside which HTML element do we put the JavaScript?",
+			"options": ["<js>", "<javascript>", "<script>", "<scripting>"]
+        },
+        {
+			"id": 63,
+			"topic": "js",
+			"question": "What is the correct JavaScript syntax to change the content of the HTML element <p id='demo'>This is a demonstration.</p>?",
+			"options": ["document.getElement('p').innerHTML = 'Hello World!';", "#demo.innerHTML = 'Hello World!';", "document.getElementByName('p').innerHTML = 'Hello World!';", "document.getElementById('demo').innerHTML = 'Hello World!';"]
+        },
+        {
+			"id": 64,
+			"topic": "js",
+			"question": "Where is the correct place to insert a JavaScript?",
+			"options": ["Both the <head> section and the <body> section are correct", "The <head> section", "The <body> section", "Between the <head> and the <body> section"]
+        },
+        {
+			"id": 65,
+			"topic": "js",
+			"question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+			"options": ["<script src='xxx.js'>", "<script>xxx.js</script>", "<script href='xxx.js'>", "<script name='xxx.js'>"]
+        },
+        {
+			"id": 66,
+			"topic": "js",
+			"question": "How do you write 'Hello World' in an alert box?",
+			"options": ["msg('Hello World');", "msgBox('Hello World');", "alert('Hello World');", "alertBox('Hello World');"]
+        },
+        {
+			"id": 67,
+			"topic": "js",
+			"question": "How do you create a function in JavaScript?",
+			"options": ["function:myFunction()", "function myFunction()", "myFunction() = function", "function = myFunction()"]
+        },
+        {
+			"id": 68,
+			"topic": "js",
+			"question": "How do you call a function named 'myFunction'?",
+			"options": ["call function myFunction()", "call myFunction()", "myFunction()", "function myFunction()"]
+        },
+        {
+			"id": 69,
+			"topic": "js",
+			"question": "How to write an if-statement in JavaScript?",
+			"options": ["if i = 3 then", "if (i === 3)", "if i = 3", "if i === 3 then"]
+        },
+        {
+			"id": 70,
+			"topic": "js",
+			"question": "How to write an IF statement for executing some code if i is NOT equal to 5?",
+			"options": ["if (i != 5)", "if i =! 5 then", "if (i <> 5)", "if i <> 5"]
+        },
+		{
+			"id": 120,
+			"topic": "js",
+			"question": "JavaScript lines end with what?",
+			"options": [".", ",", ";", "nothing"]
+        }
+    ]
+}
