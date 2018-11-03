@@ -42,19 +42,54 @@
 			"options": ["<select>", "<option>", "<label>", "<output>"]
 		}, 
 		{
-			"id": 8,
+			"id": 9,
 			"question": "Choose the correct HTML tag to define a label for an input element.",
 			"options": ["<select>", "<option>", "<label>", "<output>"]
 		}, 
 		{
-			"id": 9,
+			"id": 10,
 			"question": "What is the correct HTML tag for creating a hyperlink?",
 			"options": ["<a>", "<link>", "<ul>", "<ol>"]
 		}, 
 		{
-			"id": 10,
+			"id": 11,
 			"question": "How can you create an email link?",
 			"options": ["a href='mailto:xxx@yyy'", "a href='xxx@yyy'", "mail>xxx@yyy", "mail href='xxx@yyy'"]
+		}, 
+		{
+			"id": 12,
+			"question": "What is the correct HTML for inserting an image?",
+			"options": ["img href='image.gif'", "img src='image.gif'", "image src='image.gif'", "img>image.gif"]
+		}, 
+		{
+			"id": 13,
+			"question": "What is the correct HTML for creating a hyperlink to https://www.freecodecamp.org?",
+			"options": ["link src='https://www.freecodecamp.org/'", "a src='https://www.freecodecamp.org/'", "a href='https://www.freecodecamp.org/'", "a>https://www.freecodecamp.org/"]
+		}, 
+		{
+			"id": 14,
+			"question": "What should values always be enclosed in?",
+			"options": ["commas", "parenthesis", "dashes", "quotation marks"]
+		}, 
+		{
+			"id": 15,
+			"question": "What does <a href='https://www.google.com' title='Link to Google' target='_blank'> Google </a> do?",
+			"options": ["nothing", "adds a link to google on the page", "creates an error", "adds a search engine to the page"]
+		}, 
+		{
+			"id": 16,
+			"question": "Which tag will insert a line across the page?",
+			"options": ["<li>", "<ul>", "<hl>", "<hr>"]
+		}, 
+		{
+			"id": 17,
+			"question": "Which declaration has to be the very first thing in every HTML document?",
+			"options": ["<!DOCTYPE html>", "<html>", "<head>", "<body>"]
+		}, 
+		{
+			"id": 18,
+			"question": "Which element contains meta information about the document?",
+			"options": ["<!DOCTYPE html>", "<html>", "<head>", "<title>"]
 		}, 
 		{
 			"id": 60,
