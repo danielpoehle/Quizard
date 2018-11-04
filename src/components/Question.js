@@ -3,28 +3,22 @@ import Option from "./Option";
 import "../stylesheets/Question.css";
 
 class Question extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			question: this.props.question,
-			options: this.props.options
-		};
-	}
-	componentWillMount() {
-		this.setState({
-			question: this.props.question,
-			options: this.state.options
-		});
-	}
+	selected = value => {
+		let ans = this.props.options[parseInt(this.props.ans, 2)/this.props.id - 1];
+		this.props.toSubmit(this.props.id, value, ans === value);
+		console.log(ans === value);
+	};
 	render() {
-		const options = this.state.options.map((option, idx) => {
-			return <Option value={option} id={idx} />;
+		const options = this.props.options.map((option, idx) => {
+			return (
+				<Option value={option} id={idx} key={idx} selected={this.selected} />
+			);
 		});
 		return (
-			<div className="question">
-				<h3>{this.state.question}</h3>
+			<form action={null} className="question animated slideInDown">
+				<h4>{this.props.question}</h4>
 				{options}
-			</div>
+			</form>
 		);
 	}
 }
